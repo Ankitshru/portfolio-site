@@ -93,9 +93,10 @@
     .project-body{padding:24px}
     .project-meta{font-size:.76rem;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;font-weight:800}
     .project h3{font-size:1.55rem;margin:10px 0 8px;letter-spacing:-.035em}
-    .project p{color:var(--muted);margin:0}
+    .project p{color:var(--muted);margin:0; font-weight:800}
     .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}
     .chip{border:1px solid #292f38;border-radius:999px;padding:6px 9px;color:#cbd0d8;font-size:.76rem}
+    .chatLink{color:var(--accent)}
     .proof{display:grid;grid-template-columns:.9fr 1.1fr;gap:22px}
     .proof-card{padding:30px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,#12151a,#0e1014)}
     .big-number{font-size:clamp(3rem,6vw,5.5rem);font-weight:900;letter-spacing:-.08em;color:var(--accent);line-height:.9}
@@ -275,7 +276,7 @@
               <div class="project-meta">Demo project · Healthcare</div>
               <h3>Medical Chat AI Agent</h3>
               <p>An AI assistant that answers patient questions and handles appointment booking. Designed for deployment through a clinic website or WhatsApp.</p>
-              <div class="chips"><span class="chip">n8n</span><span class="chip">Groq AI</span><!--<span class="chip">Website</span><span class="chip">WhatsApp</span>--><span class="chip">Appointment booking</span> <a href="/chatbot-demo.html">View Live Demo →</a> </div>
+              <div class="chips"><span class="chip">n8n</span><span class="chip">Groq AI</span><!--<span class="chip">Website</span><span class="chip">WhatsApp</span>--><span class="chip">Appointment booking</span> <a class="chatLink chip" href="/chatbot-demo.html">View Live Demo →</a> </div>
             </div>
           </article>
         </div>
